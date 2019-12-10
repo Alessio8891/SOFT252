@@ -1,0 +1,170 @@
+{
+  "user": {
+
+    "administrator": [
+
+      "0": {
+        "authority": "A",
+        "id": 0,
+        "name": "Joe Bloggs",
+        "address": "place, town, county"
+      }
+
+    ],
+
+    "doctor": [
+
+      {
+        "authority": "D",
+        "id": 0,
+        "name": "Dr. Bloggs",
+        "address": "place, town, county"
+      },
+
+      {
+        "authority": "D",
+        "id": 1,
+        "name": "Dr. Smith",
+        "address": "place, town, county"
+      },
+
+      {
+        "authority": "D",
+        "id": 2,
+        "name": "Dr. Green",
+        "address": "place, town, county"
+      }
+
+    ],
+
+    "secretary": [
+      {
+        "authority": "S",
+        "id": 0,
+        "name": "Sue Bloggs",
+        "address": "place, town, county"
+      }
+
+    ],
+
+    "patient": [
+
+      {
+        "authority": "P",
+        "id": 0,
+        "name": "Steven Wong",
+        "address": "place, town, county"
+      },
+
+      {
+        "authority": "P",
+        "id": 1,
+        "name": "James Jameson",
+        "address": "place, town, county"
+      },
+
+      {
+        "authority": "P",
+        "id": 2,
+        "name": "Jason Bloggs",
+        "address": "place, town, county"
+      },
+
+    ]
+
+  },
+
+  "system": {
+
+    "medicine": [
+
+      {
+        "name": "ibuprofen"
+      },
+      {
+        "name": "2"
+      },
+      {
+        "name": "3"
+      },
+      {
+        "name": "4"
+      },
+      {
+        "name": "5"
+      },
+      {
+        "name": "6"
+      },
+      {
+        "name": "7"
+      },
+      {
+        "name": "8"
+      },
+      {
+        "name": "9"
+      },
+      {
+        "name": "10"
+      }
+
+    ],
+
+    "feedback": [
+
+      {
+        "doctor": 1,
+        "patient": 2,
+        "rating": 4,
+        "feedback": "generally acceptable",
+        "approved": true
+      },
+
+      {
+        "doctor": 1,
+        "patient": 0,
+        "rating": 1,
+        "feedback": "pretty terrible",
+        "approved": false
+      }
+
+    ],
+
+    "appointment": [
+
+      {
+        "doctor": 2,
+        "patient": 0,
+        "date": {
+          "min": "11/02/20",
+          "max": "13/02/20"
+        },
+        "approved": false
+      },
+
+      {
+        "doctor": 0,
+        "patient": 1,
+        "date": "14/02/20",
+        "approved": true
+      }
+
+    ],
+
+    "prescription": [
+
+      {
+        "doctor": 1,
+        "patient": 0,
+        "notes": "Patient has sprained ankle. Prescribing ibuprofen to reduce swelling while it heals.",
+        "medicine": "ibuprofen",
+        "quantity": 12,
+        "dosage": "Take one pill up to three times a day.",
+        "fulfilled": false
+      }
+
+    ]
+
+  }
+}
