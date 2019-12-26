@@ -1,9 +1,11 @@
 package system;
 
+import java.io.Serializable;
+
 /**
  * @author zacharysmith
  */
-public class Medicine {
+public class Medicine implements Serializable {
 
     private String name;
 

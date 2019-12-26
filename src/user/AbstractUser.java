@@ -1,9 +1,11 @@
 package user;
 
+import java.io.Serializable;
+
 /**
  * @author zacharysmith
  */
-public abstract class AbstractUser {
+public abstract class AbstractUser implements Serializable {
 
     protected char authority;
     protected int id;

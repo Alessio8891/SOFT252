@@ -3,6 +3,7 @@ package system;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import user.Doctor;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,7 +13,8 @@ class FeedbackTest {
 
     @BeforeEach
     void setUp() {
-        instance = new Feedback(0, 5, "string");
+        Doctor doctor = new Doctor('D', 0, "Name", "Address");
+        instance = new Feedback(doctor, 5, "string");
     }
 
     @AfterEach
@@ -54,7 +56,7 @@ class FeedbackTest {
     void getDoctor() {
         System.out.println("getDoctor");
         int expResult = 0;
-        int result = instance.getDoctor();
+        int result = instance.getDoctor().getId();
         assertEquals(expResult, result);
     }
 

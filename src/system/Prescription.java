@@ -1,18 +1,23 @@
 package system;
 
+import user.Doctor;
+import user.Patient;
+
+import java.io.Serializable;
+
 /**
  * @author zacharysmith
  */
-public class Prescription {
+public class Prescription implements Serializable {
 
-    private int doctor;
-    private int patient;
+    private Doctor doctor;
+    private Patient patient;
     private String notes;
     private Medicine medicine;
     private int quantity;
     private String dosage;
 
-    public Prescription(int doctor, int patient, String notes, Medicine medicine, int quantity, String dosage) {
+    public Prescription(Doctor doctor, Patient patient, String notes, Medicine medicine, int quantity, String dosage) {
         this.doctor = doctor;
         this.patient = patient;
         this.notes = notes;
@@ -21,11 +26,11 @@ public class Prescription {
         this.dosage = dosage;
     }
 
-    public int getDoctor() {
+    public Doctor getDoctor() {
         return doctor;
     }
 
-    public int getPatient() {
+    public Patient getPatient() {
         return patient;
     }
 

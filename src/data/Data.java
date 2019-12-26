@@ -9,9 +9,10 @@ import user.Doctor;
 import user.Patient;
 import user.Secretary;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Data {
+public class Data implements Serializable {
     public ArrayList<Patient> patient;
     public ArrayList<Doctor> doctor;
     public ArrayList<Secretary> secretary;
@@ -25,7 +26,6 @@ public class Data {
     public static Data data;
 
     public Data() {
-        data = new Data();
         this.patient = new ArrayList<>();
         this.doctor = new ArrayList<>();
         this.secretary = new ArrayList<>();

@@ -1,5 +1,7 @@
 package view;
 
+import controller.Controller;
+
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -40,6 +42,7 @@ public class GUI {
     private JButton markOutOfStockButton1;
     private JPanel PatientFeedbackControlPanel;
     private JPanel SecretaryFeedbackControlPanel;
+    private JButton editFeedbackSecretaryButton;
     private JButton editFeedbackButton;
     private JButton buttoneditButton;
 
@@ -60,7 +63,7 @@ public class GUI {
                         case "Login":
                         case "Register":
                             break;
-                        case "GUI List":
+                        case "Patient List":
                             break;
                     }
                 }
@@ -71,11 +74,14 @@ public class GUI {
     public static void main(String[] args) {
         GUI = new GUI();
         GUI.construct();
+
+        // setup controller //
+        Controller.main();
     }
 
     public void construct() {
         // create frame //
-        frame = new JFrame("GUI");
+        frame = new JFrame("Patient Management System");
         frame.setContentPane(GUI.contentPane);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -117,7 +123,7 @@ public class GUI {
         tabbedPane.removeAll();
 
         // add panels applicable to all authorities //
-        patientViewPanel.setName("GUI View");
+        patientViewPanel.setName("Patient View");
         appointmentsPanel.setName("Appointment List");
         prescriptionsPanel.setName("Prescription List");
 
@@ -130,7 +136,7 @@ public class GUI {
             case "A":
                 usersPanel.setName("User List");
                 medicinesPanel.setName("Medicine List");
-                patientsPanel.setName("GUI List");
+                patientsPanel.setName("Patient List");
 
                 tabbedPane.add(usersPanel);
                 tabbedPane.add(medicinesPanel);
@@ -139,7 +145,7 @@ public class GUI {
             case "D":
             case "S":
                 medicinesPanel.setName("Medicine List");
-                patientsPanel.setName("GUI List");
+                patientsPanel.setName("Patient List");
 
                 tabbedPane.add(medicinesPanel);
                 tabbedPane.add(patientsPanel);
@@ -159,7 +165,7 @@ public class GUI {
             comboBoxes[i].addItem(new ComboItem("Admin", "A"));
             comboBoxes[i].addItem(new ComboItem("Doctor", "D"));
             comboBoxes[i].addItem(new ComboItem("Secretary", "S"));
-            comboBoxes[i].addItem(new ComboItem("GUI", "P"));
+            comboBoxes[i].addItem(new ComboItem("Patient", "P"));
         }
 
     }

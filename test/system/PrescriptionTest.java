@@ -3,6 +3,8 @@ package system;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import user.Doctor;
+import user.Patient;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,7 +16,10 @@ class PrescriptionTest {
     @BeforeEach
     void setUp() {
         medicine = new Medicine("name");
-        instance = new Prescription(0, 0, "notes", medicine, 10, "dosage");
+        Doctor doctor = new Doctor('D', 0, "Name", "Address");
+        Patient patient = new Patient('P', "Name", "Address", 10, "M");
+        patient.setId(0);
+        instance = new Prescription(doctor, patient, "notes", medicine, 10, "dosage");
     }
 
     @AfterEach
@@ -26,7 +31,7 @@ class PrescriptionTest {
     void getDoctor() {
         System.out.println("getDoctor");
         int expResult = 0;
-        int result = instance.getDoctor();
+        int result = instance.getDoctor().getId();
         assertEquals(expResult, result);
     }
 
@@ -34,7 +39,7 @@ class PrescriptionTest {
     void getPatient() {
         System.out.println("getPatient");
         int expResult = 0;
-        int result = instance.getPatient();
+        int result = instance.getPatient().getId();
         assertEquals(expResult, result);
     }
 

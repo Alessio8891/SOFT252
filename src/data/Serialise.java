@@ -3,9 +3,13 @@ package data;
 import java.io.*;
 public class Serialise {
 
-    public static void main(String [] args) {
+    public static void serialise() {
         try {
-            FileOutputStream fileOut = new FileOutputStream("/serial.ser");
+            // ensure file exists //
+            File serial = new File("serial.ser");
+            serial.createNewFile();
+
+            FileOutputStream fileOut = new FileOutputStream("serial.ser");
 
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(Data.data);

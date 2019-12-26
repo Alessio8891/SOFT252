@@ -3,6 +3,8 @@ package system;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import user.Doctor;
+import user.Patient;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,7 +16,10 @@ class AppointmentTest {
     @BeforeEach
     void setUp() {
         date_range = new String[]{"min", "max"};
-        instance = new Appointment(0, 0, date_range);
+        Doctor doctor = new Doctor('D', 0, "Name", "Address");
+        Patient patient = new Patient('P', "Name", "Address", 10, "M");
+        patient.setId(0);
+        instance = new Appointment(doctor, patient, date_range);
     }
 
     @AfterEach
@@ -26,14 +31,14 @@ class AppointmentTest {
     void getDoctor() {
         System.out.println("getDoctor");
         int expResult = 0;
-        int result = instance.getDoctor();
+        int result = instance.getDoctor().getId();
         assertEquals(expResult, result);
     }
 
     @Test
     void setDoctor() {
         System.out.println("setDoctor");
-        int doctor = 1;
+        Doctor doctor = new Doctor('D', 1, "Name", "Address");
         instance.setDoctor(doctor);
     }
 
@@ -56,7 +61,7 @@ class AppointmentTest {
     void getPatient() {
         System.out.println("getPatient");
         int expResult = 0;
-        int result = instance.getPatient();
+        int result = instance.getPatient().getId();
         assertEquals(expResult, result);
     }
 }

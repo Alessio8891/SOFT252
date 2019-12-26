@@ -1,16 +1,20 @@
 package system;
 
+import user.Doctor;
+
+import java.io.Serializable;
+
 /**
  * @author zacharysmith
  */
-public class Feedback {
+public class Feedback implements Serializable {
 
-    private int doctor;
+    private Doctor doctor;
     private int rating;
     private String feedback;
     private boolean approved;
 
-    public Feedback(int doctor, int rating, String feedback) {
+    public Feedback(Doctor doctor, int rating, String feedback) {
         this.doctor = doctor;
         this.rating = rating;
         this.feedback = feedback;
@@ -35,7 +39,7 @@ public class Feedback {
         this.approved = approved;
     }
 
-    public int getDoctor() {
+    public Doctor getDoctor() {
         return doctor;
     }
 

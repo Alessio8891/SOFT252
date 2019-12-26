@@ -1,12 +1,17 @@
 package system;
 
+import user.Doctor;
+import user.Patient;
+
+import java.io.Serializable;
+
 /**
  * @author zacharysmith
  */
-public class Appointment {
+public class Appointment implements Serializable {
 
-    private int doctor;
-    private int patient;
+    private Doctor doctor;
+    private Patient patient;
     private String[] date;
 
     /**
@@ -14,23 +19,23 @@ public class Appointment {
      * @param patient_id
      * @param appointment_dates
      */
-    public Appointment(int doctor_id, int patient_id, String[] appointment_dates) {
-        this.doctor = doctor_id;
-        this.patient = patient_id;
+    public Appointment(Doctor doctor, Patient patient, String[] appointment_dates) {
+        this.doctor = doctor;
+        this.patient = patient;
         this.date = appointment_dates;
     }
 
     /**
      * @return
      */
-    public int getDoctor() {
+    public Doctor getDoctor() {
         return doctor;
     }
 
     /**
      * @param doctor
      */
-    public void setDoctor(int doctor) {
+    public void setDoctor(Doctor doctor) {
         // doctor may be changed if unavailable.
         this.doctor = doctor;
     }
@@ -52,7 +57,7 @@ public class Appointment {
     /**
      * @return
      */
-    public int getPatient() {
+    public Patient getPatient() {
         return patient;
     }
 
