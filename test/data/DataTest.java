@@ -16,18 +16,18 @@ import java.nio.file.Paths;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class IOTest {
+class DataTest {
 
     public String source = "test/data/test.json";
 
     @BeforeEach
     void setUp() {
-        IO.data = null;
+        Data.data = null;
     }
 
     @AfterEach
     void tearDown() throws IOException {
-        IO.data = null;
+        Data.data = null;
 
         String content = "{\n  \"int\": 1,\n  \"string\": \"str\",\n  \"list\": [\"str\", \"str\"],\n}";;
         BufferedWriter writer = new BufferedWriter( new FileWriter(source) );
@@ -39,7 +39,7 @@ class IOTest {
     void read() throws IOException {
         System.out.println("read");
 
-        String result = IO.read(source);
+        String result = Data.read(source);
 
         String expResult = "{\n  \"int\": 1,\n  \"string\": \"str\",\n  \"list\": [\"str\", \"str\"],\n}";
 
@@ -49,7 +49,7 @@ class IOTest {
     @Test
     void parse() throws IOException, ParseException {
         System.out.println("parse");
-        IO.parse(source);
+        Data.parse(source);
 
         JSONObject expResult = new JSONObject();
 
@@ -61,7 +61,7 @@ class IOTest {
         list.add("str");
         expResult.put("list", list);
 
-        assertEquals(expResult.toJSONString(), IO.data.toJSONString());
+        assertEquals(expResult.toJSONString(), Data.data.toJSONString());
     }
 
     @Test
@@ -70,10 +70,10 @@ class IOTest {
 
         JSONParser parser = new JSONParser();
         Object obj = parser.parse("{\n  \"int\": 1,\n  \"string\": \"str\",\n  \"list\": [\"str\", \"str\"],\n}");
-        IO.data = (JSONObject)obj;
+        Data.data = (JSONObject)obj;
 
-        IO.data.put("new", "val");
-        IO.write(source);
+        Data.data.put("new", "val");
+        Data.write(source);
 
         String result = new String ( Files.readAllBytes( Paths.get(source) ) );
         String expResult = "{\"new\":\"val\",\"string\":\"str\",\"list\":[\"str\",\"str\"],\"int\":1}";
