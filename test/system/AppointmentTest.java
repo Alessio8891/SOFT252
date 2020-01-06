@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 import user.Doctor;
 import user.Patient;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AppointmentTest {
 
@@ -16,9 +17,8 @@ class AppointmentTest {
     @BeforeEach
     void setUp() {
         date_range = new String[]{"min", "max"};
-        Doctor doctor = new Doctor('D', 0, "Name", "Address");
-        Patient patient = new Patient('P', "Name", "Address", 10, "M");
-        patient.setId(0);
+        Doctor doctor = new Doctor("Name", "Address");
+        Patient patient = new Patient("Name", "Address", 10, "M");
         instance = new Appointment(doctor, patient, date_range);
     }
 
@@ -38,7 +38,8 @@ class AppointmentTest {
     @Test
     void setDoctor() {
         System.out.println("setDoctor");
-        Doctor doctor = new Doctor('D', 1, "Name", "Address");
+        Doctor doctor = new Doctor("Name", "Address");
+        doctor.setId(0);
         instance.setDoctor(doctor);
     }
 

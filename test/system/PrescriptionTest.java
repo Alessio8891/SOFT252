@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import user.Doctor;
 import user.Patient;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PrescriptionTest {
 
@@ -16,10 +16,9 @@ class PrescriptionTest {
     @BeforeEach
     void setUp() {
         medicine = new Medicine("name");
-        Doctor doctor = new Doctor('D', 0, "Name", "Address");
-        Patient patient = new Patient('P', "Name", "Address", 10, "M");
-        patient.setId(0);
-        instance = new Prescription(doctor, patient, "notes", medicine, 10, "dosage");
+        Doctor doctor = new Doctor("Name", "Address");
+        Patient patient = new Patient("Name", "Address", 10, "M");
+        instance = new Prescription(doctor, patient, medicine, 10, "dosage");
     }
 
     @AfterEach
@@ -40,14 +39,6 @@ class PrescriptionTest {
         System.out.println("getPatient");
         int expResult = 0;
         int result = instance.getPatient().getId();
-        assertEquals(expResult, result);
-    }
-
-    @Test
-    void getNotes() {
-        System.out.println("getNotes");
-        String expResult = "notes";
-        String result = instance.getNotes();
         assertEquals(expResult, result);
     }
 

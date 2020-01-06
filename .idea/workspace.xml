@@ -1,61 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/serial.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/FeedbackList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/serial.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/AppointmentListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/FeedbackListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/MedicineListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/PatientListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/PatientViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/PrescriptionListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/UserListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/DeserialiseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/SerialiseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/UserTest.java" afterDir="false" />
+    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="Bug fixed GUI controller.">
+      <change afterPath="$PROJECT_DIR$/src/controller/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/system/PatientNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/IO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/serial.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/gui/ComboItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/gui/Patient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/gui/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOFT252.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SOFT252.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/AppointmentList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/AppointmentList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/FeedbackList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/FeedbackList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/MedicineList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/MedicineList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/PatientList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/PatientView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/PatientView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/PrescriptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/PrescriptionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/UserList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/serial.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Appointment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Feedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Feedback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Medicine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Medicine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Prescription.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/AbstractUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/AbstractUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/IOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Secretary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Secretary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/ComboItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/ComboItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/data/DataTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/AppointmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/AppointmentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/FeedbackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/FeedbackTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/PrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/PrescriptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/AdministratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/AdministratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/DoctorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/DoctorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/PatientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/PatientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/SecretaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/SecretaryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial.ser" beforeDir="false" afterPath="$PROJECT_DIR$/serial.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/AppointmentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AppointmentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/FeedbackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FeedbackList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MedicineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MedicineList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/PatientList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PatientList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/PatientList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/PatientView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PatientView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/PrescriptionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PrescriptionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Deserialise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Deserialise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Serialise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Serialise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/serial.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/serial.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Appointment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Feedback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Medicine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Prescription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/AbstractUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/AbstractUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Secretary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ComboItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ComboItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/data/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/DataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/test.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/system/AppointmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/AppointmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/system/FeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/FeedbackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/system/PrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/PrescriptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/user/AdministratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/AdministratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/user/DoctorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/DoctorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/user/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/PatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/user/SecretaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/SecretaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +108,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -94,6 +116,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -114,12 +137,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.GUI">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.Example" />
+      <module name="SOFT252" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GUI" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.GUI" />
       <module name="SOFT252" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.Test" />
+      <module name="SOFT252" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,25 +196,6 @@
       <option name="MAIN_CLASS_NAME" value="data.DataTest" />
       <option name="METHOD_NAME" value="write" />
       <option name="TEST_OBJECT" value="method" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:data.IOTest]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SOFT252" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.IOTest" />
-      <option name="METHOD_NAME" value="write" />
-      <option name="TEST_OBJECT" value="uniqueId" />
       <uniqueIds>
         <uniqueId value="[engine:junit-jupiter]/[class:data.IOTest]" />
       </uniqueIds>
@@ -212,17 +242,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GUI" />
+      <item itemvalue="Application.Example" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.All in SOFT252" />
       <item itemvalue="JUnit.[engine:junit-jupiter]/[class:data.IOTest]" />
       <item itemvalue="JUnit.DataTest.write" />
-      <item itemvalue="Application.GUI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.All in SOFT252" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:data.IOTest]" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:data.IOTest]" />
-        <item itemvalue="JUnit.DataTest.write" />
       </list>
     </recent_temporary>
   </component>
@@ -254,22 +287,41 @@
       <workItem from="1577034646221" duration="4807000" />
       <workItem from="1577106206243" duration="2711000" />
       <workItem from="1577192181508" duration="4530000" />
-      <workItem from="1577357582873" duration="8438000" />
+      <workItem from="1577357582873" duration="8476000" />
+      <workItem from="1577463145970" duration="5053000" />
+      <workItem from="1577472659315" duration="8345000" />
+      <workItem from="1577611735071" duration="14574000" />
+      <workItem from="1577700277066" duration="15345000" />
+      <workItem from="1577784685511" duration="10762000" />
+      <workItem from="1577807012253" duration="6228000" />
+      <workItem from="1578222203467" duration="1799000" />
+      <workItem from="1578238173860" duration="7374000" />
+      <workItem from="1578333083763" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Bug fixed GUI controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed GUI controller." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="283" y="27" key="#Project_Structure" timestamp="1575635094440">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state x="283" y="27" key="#Project_Structure/0.23.1366.678@0.23.1366.678" timestamp="1575635094440" />
-    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577039589705">
-      <screen x="0" y="23" width="1366" height="678" />
+    <state x="193" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577479307611">
+      <screen x="52" y="23" width="1314" height="745" />
     </state>
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.678@0.23.1366.678" timestamp="1577039589705" />
+    <state x="193" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.23.1314.745@52.23.1314.745" timestamp="1577479307611" />
     <state x="154" y="463" width="1166" height="478" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575648868917">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
@@ -278,14 +330,17 @@
       <screen x="50" y="23" width="1316" height="745" />
     </state>
     <state x="458" y="205" key="#com.intellij.fileTypes.FileTypeChooser/50.23.1316.745@50.23.1316.745" timestamp="1577368105242" />
-    <state x="522" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1577361502530">
+    <state x="489" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1578334579712">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="489" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1577794731270" />
+    <state x="489" y="86" key="#com.intellij.ide.util.MemberChooser/0.23.1366.745@0.23.1366.745" timestamp="1578334579712" />
+    <state x="522" y="86" key="#com.intellij.ide.util.MemberChooser/52.23.1314.745@52.23.1314.745" timestamp="1577792737130" />
+    <state x="456" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577479273162">
       <screen x="52" y="23" width="1314" height="745" />
     </state>
-    <state x="522" y="86" key="#com.intellij.ide.util.MemberChooser/52.23.1314.745@52.23.1314.745" timestamp="1577361502530" />
-    <state x="420" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577039486158">
-      <screen x="0" y="23" width="1366" height="678" />
-    </state>
     <state x="420" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1366.678@0.23.1366.678" timestamp="1577039486158" />
+    <state x="456" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog/52.23.1314.745@52.23.1314.745" timestamp="1577479273162" />
     <state x="497" y="262" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577366825650">
       <screen x="52" y="23" width="1314" height="745" />
     </state>
@@ -294,39 +349,59 @@
       <screen x="52" y="23" width="1314" height="745" />
     </state>
     <state x="52" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/52.23.1314.745@52.23.1314.745" timestamp="1577361940684" />
+    <state x="421" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577629632394">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="421" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1577629632394" />
     <state x="481" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577200440868">
       <screen x="52" y="23" width="1314" height="745" />
     </state>
     <state x="446" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.678@0.23.1366.678" timestamp="1577039521608" />
     <state x="481" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1314.745@52.23.1314.745" timestamp="1577200440868" />
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578335589133">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578335589133" />
     <state x="445" y="85" key="DetectedRootsChooserDialog" timestamp="1575644008989">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state x="445" y="85" key="DetectedRootsChooserDialog/0.23.1366.678@0.23.1366.678" timestamp="1575644008989" />
-    <state width="1272" height="212" key="GridCell.Tab.0.bottom" timestamp="1577368416737">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578335589219">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
+    <state width="1324" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.bottom/0.23.1366.678@0.23.1366.678" timestamp="1577097959725" />
-    <state width="1272" height="212" key="GridCell.Tab.0.bottom/50.23.1316.745@50.23.1316.745" timestamp="1577358411639" />
-    <state width="1272" height="212" key="GridCell.Tab.0.bottom/52.23.1314.745@52.23.1314.745" timestamp="1577368416737" />
-    <state width="1272" height="212" key="GridCell.Tab.0.center" timestamp="1577368416735">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1578335589219" />
+    <state width="1272" height="212" key="GridCell.Tab.0.bottom/50.23.1316.745@50.23.1316.745" timestamp="1577621723336" />
+    <state width="1272" height="211" key="GridCell.Tab.0.bottom/52.23.1314.745@52.23.1314.745" timestamp="1577731521689" />
+    <state width="1272" height="211" key="GridCell.Tab.0.bottom/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
+    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1578335589218">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
+    <state width="1324" height="228" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577639673524" />
     <state width="1324" height="188" key="GridCell.Tab.0.center/0.23.1366.678@0.23.1366.678" timestamp="1577097959723" />
-    <state width="1272" height="212" key="GridCell.Tab.0.center/50.23.1316.745@50.23.1316.745" timestamp="1577358411637" />
-    <state width="1272" height="212" key="GridCell.Tab.0.center/52.23.1314.745@52.23.1314.745" timestamp="1577368416735" />
-    <state width="1272" height="212" key="GridCell.Tab.0.left" timestamp="1577368416735">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1578335589218" />
+    <state width="1272" height="212" key="GridCell.Tab.0.center/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
+    <state width="1272" height="211" key="GridCell.Tab.0.center/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
+    <state width="1272" height="211" key="GridCell.Tab.0.center/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
+    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1578335589217">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
+    <state width="1324" height="228" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577639673523" />
     <state width="1324" height="188" key="GridCell.Tab.0.left/0.23.1366.678@0.23.1366.678" timestamp="1577097959722" />
-    <state width="1272" height="212" key="GridCell.Tab.0.left/50.23.1316.745@50.23.1316.745" timestamp="1577358411636" />
-    <state width="1272" height="212" key="GridCell.Tab.0.left/52.23.1314.745@52.23.1314.745" timestamp="1577368416735" />
-    <state width="1272" height="212" key="GridCell.Tab.0.right" timestamp="1577368416737">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1578335589217" />
+    <state width="1272" height="212" key="GridCell.Tab.0.left/50.23.1316.745@50.23.1316.745" timestamp="1577621723334" />
+    <state width="1272" height="211" key="GridCell.Tab.0.left/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
+    <state width="1272" height="211" key="GridCell.Tab.0.left/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
+    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1578335589219">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
+    <state width="1324" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.right/0.23.1366.678@0.23.1366.678" timestamp="1577097959724" />
-    <state width="1272" height="212" key="GridCell.Tab.0.right/50.23.1316.745@50.23.1316.745" timestamp="1577358411638" />
-    <state width="1272" height="212" key="GridCell.Tab.0.right/52.23.1314.745@52.23.1314.745" timestamp="1577368416737" />
+    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1578335589219" />
+    <state width="1272" height="212" key="GridCell.Tab.0.right/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
+    <state width="1272" height="211" key="GridCell.Tab.0.right/52.23.1314.745@52.23.1314.745" timestamp="1577731521688" />
+    <state width="1272" height="211" key="GridCell.Tab.0.right/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
     <state width="1324" height="206" key="GridCell.Tab.1.bottom" timestamp="1577034609755">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
@@ -343,15 +418,23 @@
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state width="1324" height="206" key="GridCell.Tab.1.right/0.23.1366.678@0.23.1366.678" timestamp="1577034609754" />
-    <state x="171" y="23" key="SettingsEditor" timestamp="1575645859127">
-      <screen x="0" y="23" width="1366" height="678" />
-    </state>
-    <state x="171" y="23" key="SettingsEditor/0.23.1366.678@0.23.1366.678" timestamp="1575645859127" />
-    <state x="414" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1577357591385">
+    <state x="216" y="23" key="SettingsEditor" timestamp="1577704502582">
       <screen x="52" y="23" width="1314" height="745" />
     </state>
+    <state x="171" y="23" key="SettingsEditor/0.23.1366.678@0.23.1366.678" timestamp="1575645859127" />
+    <state x="216" y="23" key="SettingsEditor/52.23.1314.745@52.23.1314.745" timestamp="1577704502582" />
+    <state x="594" y="202" key="UIDesigner.ListEditorDialog" timestamp="1577792981071">
+      <screen x="52" y="23" width="1314" height="745" />
+    </state>
+    <state x="563" y="185" key="UIDesigner.ListEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1577640046768" />
+    <state x="594" y="202" key="UIDesigner.ListEditorDialog/52.23.1314.745@52.23.1314.745" timestamp="1577792981071" />
+    <state x="377" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1578333083953">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
     <state x="376" y="194" key="com.intellij.ide.util.TipDialog/0.23.1366.678@0.23.1366.678" timestamp="1577034647995" />
-    <state x="414" y="211" key="com.intellij.ide.util.TipDialog/52.23.1314.745@52.23.1314.745" timestamp="1577357591385" />
+    <state x="377" y="211" key="com.intellij.ide.util.TipDialog/0.23.1366.745@0.23.1366.745" timestamp="1578333083953" />
+    <state x="412" y="211" key="com.intellij.ide.util.TipDialog/49.23.1317.745@49.23.1317.745" timestamp="1577784693467" />
+    <state x="414" y="211" key="com.intellij.ide.util.TipDialog/52.23.1314.745@52.23.1314.745" timestamp="1577700449102" />
     <state x="410" y="263" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575635748941">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
@@ -370,11 +453,12 @@
     </state>
     <state x="112" y="23" key="new project wizard/0.23.1366.678@0.23.1366.678" timestamp="1575635809708" />
     <state x="160" y="23" key="new project wizard/52.23.1314.745@52.23.1314.745" timestamp="1577366462783" />
-    <state x="386" y="25" width="672" height="676" key="search.everywhere.popup" timestamp="1577368255539">
-      <screen x="50" y="23" width="1316" height="745" />
+    <state x="348" y="25" width="697" height="676" key="search.everywhere.popup" timestamp="1577810226740">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="348" y="25" key="search.everywhere.popup/0.23.1366.678@0.23.1366.678" timestamp="1575590006423" />
-    <state x="386" y="25" width="672" height="676" key="search.everywhere.popup/50.23.1316.745@50.23.1316.745" timestamp="1577368255539" />
-    <state x="387" y="25" width="670" height="676" key="search.everywhere.popup/52.23.1314.745@52.23.1314.745" timestamp="1577118475782" />
+    <state x="348" y="25" width="697" height="676" key="search.everywhere.popup/0.23.1366.745@0.23.1366.745" timestamp="1577810226740" />
+    <state x="386" y="25" width="672" height="676" key="search.everywhere.popup/50.23.1316.745@50.23.1316.745" timestamp="1577701364163" />
+    <state x="387" y="25" width="670" height="676" key="search.everywhere.popup/52.23.1314.745@52.23.1314.745" timestamp="1577731845311" />
   </component>
 </project>

@@ -9,16 +9,29 @@ public abstract class AbstractUser implements Serializable {
 
     protected char authority;
     protected int id;
+    protected char[] password;
     protected String name;
     protected String address;
+    protected boolean approved;
+    protected boolean requestDelete;
 
-    abstract char getAuthority();
+    public abstract boolean getRequestDelete();
 
-    abstract int getId();
+    public abstract void setRequestDelete(boolean requestDelete);
 
-    abstract String getName();
+    public abstract char getAuthority();
 
-    abstract String getAddress();
+    public abstract char[] getPassword();
 
+    public abstract int getId();
 
+    public abstract void setId(int id);
+
+    public abstract boolean getApproved();
+
+    public abstract void setApproved(boolean approved);
+
+    public abstract String getName();
+
+    public abstract String getAddress();
 }

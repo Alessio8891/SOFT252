@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PatientTest {
 
@@ -12,7 +12,7 @@ class PatientTest {
 
     @BeforeEach
     void setUp() {
-        instance = new Patient('P', "name", "address", 34, "gender");
+        instance = new Patient("name", "address", 34, "gender");
     }
 
     @AfterEach

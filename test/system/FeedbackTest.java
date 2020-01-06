@@ -4,8 +4,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import user.Doctor;
+import user.Patient;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FeedbackTest {
 
@@ -13,8 +14,9 @@ class FeedbackTest {
 
     @BeforeEach
     void setUp() {
-        Doctor doctor = new Doctor('D', 0, "Name", "Address");
-        instance = new Feedback(doctor, 5, "string");
+        Patient patient = new Patient("Name", "address", 12, "male");
+        Doctor doctor = new Doctor("Name", "Address");
+        instance = new Feedback(doctor, patient, 5, "string");
     }
 
     @AfterEach

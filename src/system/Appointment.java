@@ -13,16 +13,18 @@ public class Appointment implements Serializable {
     private Doctor doctor;
     private Patient patient;
     private String[] date;
+    private boolean approved;
 
     /**
-     * @param doctor_id
-     * @param patient_id
+     * @param doctor
+     * @param patient
      * @param appointment_dates
      */
     public Appointment(Doctor doctor, Patient patient, String[] appointment_dates) {
         this.doctor = doctor;
         this.patient = patient;
         this.date = appointment_dates;
+        this.approved = false;
     }
 
     /**
@@ -61,4 +63,11 @@ public class Appointment implements Serializable {
         return patient;
     }
 
+    public boolean getApproved() {
+        return approved;
+    }
+
+    public void setApproved(boolean approved) {
+        this.approved = approved;
+    }
 }
