@@ -3,13 +3,61 @@
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SOFT252:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_soft252.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft252.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft252.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagram.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOFT252_jar/SOFT252.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOFT252_jar/serial.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Settings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/data/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/diagram.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/system/PatientNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$33.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$34.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOFT252/view/ListItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/SOFT252/view/ComboItemTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/SOFT252/view/ListItemTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial.ser" beforeDir="false" afterPath="$PROJECT_DIR$/serial.ser" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +110,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -79,7 +127,7 @@
       <recent name="$PROJECT_DIR$/javadoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GUI">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.Example" />
       <module name="SOFT252" />
@@ -194,8 +242,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in SOFT252" />
         <item itemvalue="Application.Example" />
+        <item itemvalue="JUnit.All in SOFT252" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:data.IOTest]" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:data.IOTest]" />
@@ -241,7 +289,7 @@
       <workItem from="1578238173860" duration="7374000" />
       <workItem from="1578333083763" duration="11109000" />
       <workItem from="1578412350851" duration="150000" />
-      <workItem from="1578412526080" duration="1412000" />
+      <workItem from="1578412526080" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fixed GUI controller.">
       <created>1578335681063</created>
@@ -264,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578412120072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Built .jar executable and .uml diagram.">
+      <created>1578414203351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578414203351</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +331,8 @@
     <MESSAGE value="Bug fixed GUI controller." />
     <MESSAGE value="Wrote unit tests for data handling methods." />
     <MESSAGE value="Added JavaDoc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JavaDoc." />
+    <MESSAGE value="Built .jar executable and .uml diagram." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built .jar executable and .uml diagram." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -329,10 +385,10 @@
     <state x="446" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.678@0.23.1366.678" timestamp="1577039521608" />
     <state x="446" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.745@0.23.1366.745" timestamp="1578411324404" />
     <state x="481" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1314.745@52.23.1314.745" timestamp="1577200440868" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578414161589">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578414202243">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578414161589" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578414202243" />
     <state x="445" y="85" key="DetectedRootsChooserDialog" timestamp="1575644008989">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
@@ -341,39 +397,39 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="429" y="23" key="Diagram.Print.Preview.Dialog/0.23.1366.745@0.23.1366.745" timestamp="1578413389288" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578411933594">
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578416410413">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.bottom/0.23.1366.678@0.23.1366.678" timestamp="1577097959725" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1578411933594" />
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1578416410413" />
     <state width="1272" height="212" key="GridCell.Tab.0.bottom/50.23.1316.745@50.23.1316.745" timestamp="1577621723336" />
     <state width="1272" height="211" key="GridCell.Tab.0.bottom/52.23.1314.745@52.23.1314.745" timestamp="1577731521689" />
     <state width="1272" height="211" key="GridCell.Tab.0.bottom/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1578411933593">
+    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1578416410412">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577639673524" />
     <state width="1324" height="188" key="GridCell.Tab.0.center/0.23.1366.678@0.23.1366.678" timestamp="1577097959723" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1578411933593" />
+    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1578416410412" />
     <state width="1272" height="212" key="GridCell.Tab.0.center/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
     <state width="1272" height="211" key="GridCell.Tab.0.center/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
     <state width="1272" height="211" key="GridCell.Tab.0.center/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1578411933591">
+    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1578416410412">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577639673523" />
     <state width="1324" height="188" key="GridCell.Tab.0.left/0.23.1366.678@0.23.1366.678" timestamp="1577097959722" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1578411933591" />
+    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1578416410412" />
     <state width="1272" height="212" key="GridCell.Tab.0.left/50.23.1316.745@50.23.1316.745" timestamp="1577621723334" />
     <state width="1272" height="211" key="GridCell.Tab.0.left/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
     <state width="1272" height="211" key="GridCell.Tab.0.left/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1578411933593">
+    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1578416410413">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.right/0.23.1366.678@0.23.1366.678" timestamp="1577097959724" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1578411933593" />
+    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1578416410413" />
     <state width="1272" height="212" key="GridCell.Tab.0.right/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
     <state width="1272" height="211" key="GridCell.Tab.0.right/52.23.1314.745@52.23.1314.745" timestamp="1577731521688" />
     <state width="1272" height="211" key="GridCell.Tab.0.right/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
@@ -393,11 +449,11 @@
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state width="1324" height="206" key="GridCell.Tab.1.right/0.23.1366.678@0.23.1366.678" timestamp="1577034609754" />
-    <state x="170" y="23" key="SettingsEditor" timestamp="1578414036424">
+    <state x="170" y="23" key="SettingsEditor" timestamp="1578414288006">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="171" y="23" key="SettingsEditor/0.23.1366.678@0.23.1366.678" timestamp="1575645859127" />
-    <state x="170" y="23" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1578414036424" />
+    <state x="170" y="23" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1578414288006" />
     <state x="216" y="23" key="SettingsEditor/52.23.1314.745@52.23.1314.745" timestamp="1577704502582" />
     <state x="594" y="202" key="UIDesigner.ListEditorDialog" timestamp="1577792981071">
       <screen x="52" y="23" width="1314" height="745" />
