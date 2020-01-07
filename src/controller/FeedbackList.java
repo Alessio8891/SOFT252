@@ -88,7 +88,7 @@ public class FeedbackList {
                 feedbackListModel.addElement(new ListItem(element, feedback));
             }
             // only display doctors own feedback //
-            else if (authority == 'D' && doctor.getId() == id && feedback.getApproved() == true) {
+            else if (authority == 'D' && doctor.getId() == id && feedback.getApproved()) {
                 element = String.format("Patient: %s, Rating: %s, Feedback: %s", patient.getName(), rating, shortText);
                 feedbackListModel.addElement(new ListItem(element, feedback));
             }
@@ -171,9 +171,7 @@ public class FeedbackList {
         ListItem selectedFeedback = (ListItem) GUI.getFeedbackList().getSelectedValue();
         Feedback feedback = (Feedback) selectedFeedback.getValue();
 
-        int feedbackIndex = Data.getData().getFeedback().indexOf(feedback);
-
-        Data.getData().getFeedback().remove(feedbackIndex);
+        Data.getData().getFeedback().remove(feedback);
         Serialise.serialise();
 
         clearFeedback(GUI);

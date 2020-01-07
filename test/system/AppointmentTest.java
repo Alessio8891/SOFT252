@@ -1,5 +1,6 @@
 package system;
 
+import data.Data;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,12 +11,13 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AppointmentTest {
-
     public Appointment instance;
     public String[] date_range;
 
     @BeforeEach
     void setUp() {
+        Data.setData(new Data());
+
         date_range = new String[]{"min", "max"};
         Doctor doctor = new Doctor("Name", "Address");
         Patient patient = new Patient("Name", "Address", 10, "M");
@@ -25,12 +27,13 @@ class AppointmentTest {
     @AfterEach
     void tearDown() {
         instance = null;
+        Data.setData(null);
     }
 
     @Test
     void getDoctor() {
         System.out.println("getDoctor");
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.getDoctor().getId();
         assertEquals(expResult, result);
     }
@@ -61,7 +64,7 @@ class AppointmentTest {
     @Test
     void getPatient() {
         System.out.println("getPatient");
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.getPatient().getId();
         assertEquals(expResult, result);
     }

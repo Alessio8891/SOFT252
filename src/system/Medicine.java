@@ -7,7 +7,7 @@ import java.io.Serializable;
  */
 public class Medicine implements Serializable {
 
-    private String name;
+    private final String name;
     private int stock;
 
     public Medicine(String name) {

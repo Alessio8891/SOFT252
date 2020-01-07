@@ -9,7 +9,7 @@ public class Secretary extends AbstractUser {
 
     public Secretary(String name, String address, char[] password) {
         this.authority = 'S';
-        this.id = Data.getData().getUniqueSecretaryID();
+        this.id = Data.getUniqueSecretaryID();
         this.password = password;
         this.name = name;
         this.address = address;
@@ -19,7 +19,7 @@ public class Secretary extends AbstractUser {
 
     public Secretary(String name, String address) {
         this.authority = 'S';
-        this.id = Data.getData().getUniqueSecretaryID();
+        this.id = Data.getUniqueSecretaryID();
         this.name = name;
         this.address = address;
         this.approved = false;

@@ -1,8 +1,8 @@
 package data;
 
 public class User {
-    private char authority;
-    private int id;
+    private final char authority;
+    private final int id;
 
     public static User user;
 

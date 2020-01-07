@@ -1,5 +1,6 @@
 package system;
 
+import data.Data;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,6 +15,8 @@ class FeedbackTest {
 
     @BeforeEach
     void setUp() {
+        Data.setData(new Data());
+
         Patient patient = new Patient("Name", "address", 12, "male");
         Doctor doctor = new Doctor("Name", "Address");
         instance = new Feedback(doctor, patient, 5, "string");
@@ -22,6 +25,7 @@ class FeedbackTest {
     @AfterEach
     void tearDown() {
         instance = null;
+        Data.setData(null);
     }
 
     @Test
@@ -57,7 +61,7 @@ class FeedbackTest {
     @Test
     void getDoctor() {
         System.out.println("getDoctor");
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.getDoctor().getId();
         assertEquals(expResult, result);
     }

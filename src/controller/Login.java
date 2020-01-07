@@ -50,8 +50,8 @@ public class Login {
             userList = Data.getData().getUser();
         }
 
-        for (int i = 0; i < userList.size(); i++) {
-            AbstractUser user = (AbstractUser) userList.get(i);
+        for (Object o : userList) {
+            AbstractUser user = (AbstractUser) o;
 
             if (user.getId() == id && user.getAuthority() == authority) {
                 GUI.getLoginNoIDMessage().setVisible(false);
@@ -59,7 +59,7 @@ public class Login {
                 if (Arrays.equals(password, user.getPassword())) {
                     GUI.getLoginWrongPasswordMessage().setVisible(false);
 
-                    if (user.getApproved() == true) {
+                    if (user.getApproved()) {
                         GUI.getLoginNotApprovedMessage().setVisible(false);
                         User.setUser(new User(authority, id));
 

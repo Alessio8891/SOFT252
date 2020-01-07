@@ -1,5 +1,6 @@
 package user;
 
+import data.Data;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,12 +13,14 @@ class PatientTest {
 
     @BeforeEach
     void setUp() {
+        Data.setData(new Data());
         instance = new Patient("name", "address", 34, "gender");
     }
 
     @AfterEach
     void tearDown() {
         instance = null;
+        Data.setData(null);
     }
 
     @Test

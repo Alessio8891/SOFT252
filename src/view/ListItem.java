@@ -6,7 +6,7 @@ import user.AbstractUser;
 public class ListItem {
 
     private String key;
-    private Object value;
+    private final Object value;
 
     public ListItem(String key, AbstractUser value) {
         this.key = key;
@@ -34,6 +34,11 @@ public class ListItem {
     }
 
     public ListItem(String key, Medicine value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public ListItem(String key, String value) {
         this.key = key;
         this.value = value;
     }

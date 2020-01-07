@@ -113,9 +113,7 @@ public class MedicineList {
         ListItem selectedMedicine = (ListItem) GUI.getMedicineList().getSelectedValue();
         Medicine medicine = (Medicine) selectedMedicine.getValue();
 
-        int medicineIndex = Data.getData().getMedicine().indexOf(medicine);
-
-        Data.getData().getMedicine().remove(medicineIndex);
+        Data.getData().getMedicine().remove(medicine);
         Serialise.serialise();
 
         clearMedicine(GUI);

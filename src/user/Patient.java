@@ -9,14 +9,14 @@ import java.util.ArrayList;
  * @author zacharysmith
  */
 public class Patient extends AbstractUser {
-    protected int age;
-    protected String gender;
+    protected final int age;
+    protected final String gender;
     protected boolean approved;
     private ArrayList<PatientNote> patientNotes;
 
     public Patient(String name, String address, int age, String gender, char[] password) {
         this.authority = 'P';
-        this.id = Data.getData().getUniquePatientID();
+        this.id = Data.getUniquePatientID();
         this.password = password;
         this.name = name;
         this.address = address;
@@ -29,7 +29,7 @@ public class Patient extends AbstractUser {
 
     public Patient(String name, String address, int age, String gender) {
         this.authority = 'P';
-        this.id = Data.getData().getUniquePatientID();
+        this.id = Data.getUniquePatientID();
         this.name = name;
         this.address = address;
         this.age = age;

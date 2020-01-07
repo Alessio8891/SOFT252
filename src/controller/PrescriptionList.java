@@ -206,10 +206,10 @@ public class PrescriptionList {
 
         boolean processed = GUI.getPrescriptionProcessedCheckBox().isSelected();
 
-        if (processed == true && Data.getData().getPrescription().get(prescriptionIndex).getProcessed() == false) {
+        if (processed && !Data.getData().getPrescription().get(prescriptionIndex).getProcessed()) {
             // if prescription set to processed state, subtract medicine from stock
             medicine.useStock(quantity);
-        } else if (processed == false && Data.getData().getPrescription().get(prescriptionIndex).getProcessed() == true) {
+        } else if (!processed && Data.getData().getPrescription().get(prescriptionIndex).getProcessed()) {
             // if prescription set to unprocessed state, refund medicine into stock
             medicine.addStock(quantity);
         }
@@ -229,9 +229,7 @@ public class PrescriptionList {
         ListItem selectedPrescription = (ListItem) GUI.getPrescriptionList().getSelectedValue();
         Prescription prescription = (Prescription) selectedPrescription.getValue();
 
-        int prescriptionIndex = Data.getData().getPrescription().indexOf(prescription);
-
-        Data.getData().getPrescription().remove(prescriptionIndex);
+        Data.getData().getPrescription().remove(prescription);
         Serialise.serialise();
 
         clearPrescription(GUI);

@@ -9,7 +9,7 @@ public class Doctor extends AbstractUser {
 
     public Doctor(String name, String address, char[] password) {
         this.authority = 'D';
-        this.id = Data.getData().getUniqueDoctorID();
+        this.id = Data.getUniqueDoctorID();
         this.password = password;
         this.name = name;
         this.address = address;
@@ -19,7 +19,7 @@ public class Doctor extends AbstractUser {
 
     public Doctor(String name, String address) {
         this.authority = 'D';
-        this.id = Data.getData().getUniqueDoctorID();
+        this.id = Data.getUniqueDoctorID();
         this.name = name;
         this.address = address;
         this.approved = false;

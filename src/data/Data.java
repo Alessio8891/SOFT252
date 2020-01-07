@@ -11,13 +11,13 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 public class Data implements Serializable {
-    public ArrayList<AbstractUser> user;
-    public ArrayList<Patient> patient;
+    public final ArrayList<AbstractUser> user;
+    public final ArrayList<Patient> patient;
 
-    public ArrayList<Appointment> appointment;
-    public ArrayList<Feedback> feedback;
-    public ArrayList<Medicine> medicine;
-    public ArrayList<Prescription> prescription;
+    public final ArrayList<Appointment> appointment;
+    public final ArrayList<Feedback> feedback;
+    public final ArrayList<Medicine> medicine;
+    public final ArrayList<Prescription> prescription;
 
     public static Data data;
 
@@ -77,9 +77,8 @@ public class Data implements Serializable {
 
     public static int getUniquePatientID() {
         // unique ID = number of existing patients + 1
-        int uniqueID = Data.getData().getPatient().size() + 1;
 
-        return uniqueID;
+        return Data.getData().getPatient().size() + 1;
     }
 
     public ArrayList<AbstractUser> getUser() {

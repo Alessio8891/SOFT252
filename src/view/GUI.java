@@ -5,8 +5,6 @@ import data.User;
 import user.Patient;
 
 import javax.swing.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.*;
@@ -140,11 +138,7 @@ public class GUI {
 
     public GUI() {
         // add tab change event listener //
-        tabbedPane.addChangeListener(new ChangeListener() {
-            public void stateChanged(ChangeEvent e) {
-                Controller.tabChangeState(GUI);
-            }
-        });
+        tabbedPane.addChangeListener(e -> Controller.tabChangeState(GUI));
         loginButton.addActionListener(new ActionListener() {
             /**
              * Invoked when an action occurs.
@@ -1086,11 +1080,11 @@ public class GUI {
         comboBoxes[0] = GUI.getComboAuthorityRegister();
         comboBoxes[1] = GUI.getComboAuthorityLogin();
 
-        for (int i = 0; i < comboBoxes.length; i++) {
-            comboBoxes[i].addItem(new ComboItem("Admin", "A"));
-            comboBoxes[i].addItem(new ComboItem("Doctor", "D"));
-            comboBoxes[i].addItem(new ComboItem("Secretary", "S"));
-            comboBoxes[i].addItem(new ComboItem("Patient", "P"));
+        for (JComboBox comboBox : comboBoxes) {
+            comboBox.addItem(new ComboItem("Admin", "A"));
+            comboBox.addItem(new ComboItem("Doctor", "D"));
+            comboBox.addItem(new ComboItem("Secretary", "S"));
+            comboBox.addItem(new ComboItem("Patient", "P"));
         }
 
     }

@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 public class PatientNote implements Serializable {
 
-    private Doctor doctor;
+    private final Doctor doctor;
     private String note;
 
     public PatientNote(Doctor doctor, String note) {

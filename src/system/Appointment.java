@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class Appointment implements Serializable {
 
     private Doctor doctor;
-    private Patient patient;
+    private final Patient patient;
     private String[] date;
     private boolean approved;
 

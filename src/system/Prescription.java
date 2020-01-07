@@ -10,8 +10,8 @@ import java.io.Serializable;
  */
 public class Prescription implements Serializable {
 
-    private Doctor doctor;
-    private Patient patient;
+    private final Doctor doctor;
+    private final Patient patient;
     private Medicine medicine;
     private int quantity;
     private String dosage;

@@ -125,9 +125,7 @@ public class PatientView {
         ListItem selectedNote = (ListItem) GUI.getPatientHistoryList().getSelectedValue();
         PatientNote patientNote = (PatientNote) selectedNote.getValue();
 
-        int patientNoteIndex = Data.getData().getPatient().get(patientIndex).getPatientNotes().indexOf(patientNote);
-
-        Data.getData().getPatient().get(patientIndex).getPatientNotes().remove(patientNoteIndex);
+        Data.getData().getPatient().get(patientIndex).getPatientNotes().remove(patientNote);
         Serialise.serialise();
 
         clearPatientNote(GUI);

@@ -9,7 +9,7 @@ public class Administrator extends AbstractUser {
 
     public Administrator(String name, String address, char[] password) {
         this.authority = 'A';
-        this.id = Data.getData().getUniqueAdminID();
+        this.id = Data.getUniqueAdminID();
         this.password = password;
         this.name = name;
         this.address = address;
@@ -19,7 +19,7 @@ public class Administrator extends AbstractUser {
 
     public Administrator(String name, String address) {
         this.authority = 'A';
-        this.id = Data.getData().getUniqueAdminID();
+        this.id = Data.getUniqueAdminID();
         this.name = name;
         this.address = address;
         this.approved = false;

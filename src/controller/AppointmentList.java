@@ -140,7 +140,7 @@ public class AppointmentList {
         GUI.getAppointmentDoctorSelectCombo().setEnabled(true);
         GUI.getAppointmentDoctorSelectCombo().setSelectedItem(appointment.getDoctor());
 
-        if (appointment.getApproved() == true) {
+        if (appointment.getApproved()) {
             // load one date
             GUI.getAppointmentEarliestOrConfirmedLabel().setText("Approved Date");
 
@@ -195,9 +195,7 @@ public class AppointmentList {
         ListItem selectedAppointment = (ListItem) GUI.getAppointmentList().getSelectedValue();
         Appointment appointment = (Appointment) selectedAppointment.getValue();
 
-        int appointmentIndex = Data.getData().getAppointment().indexOf(appointment);
-
-        Data.getData().getAppointment().remove(appointmentIndex);
+        Data.getData().getAppointment().remove(appointment);
         Serialise.serialise();
 
         clearAppointment(GUI);

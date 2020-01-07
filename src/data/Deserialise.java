@@ -6,30 +6,32 @@ import java.io.ObjectInputStream;
 
 public class Deserialise {
     public static void deserialise() {
-        Data.data = null;
+        Data dataset = main("serial.ser");
+        Data.setData(dataset);
+    }
 
+    public static Data main(String filepath) {
         try {
-            FileInputStream fileIn = new FileInputStream("serial.ser");
+            FileInputStream fileIn = new FileInputStream(filepath);
             ObjectInputStream in = new ObjectInputStream(fileIn);
 
-            Data.data = (Data) in.readObject();
+            Data dataset = (Data) in.readObject();
 
             in.close();
             fileIn.close();
-        }
-        catch (IOException i) {
+
+            return dataset;
+        } catch (IOException i) {
             i.printStackTrace();
 
-            // create initial ./serial.ser file //
-            Data.data = new Data();
-            Serialise.serialise();
+            Data dataset = new Data();
+            Serialise.main(dataset, filepath);
 
-            System.out.println("Created './serial.ser', please reload.");
-            return;
-        }
-        catch (ClassNotFoundException i) {
+            System.out.printf("Created './%s'.\n", filepath);
+            return dataset;
+        } catch (ClassNotFoundException i) {
             i.printStackTrace();
-            return;
+            return null;
         }
     }
 }

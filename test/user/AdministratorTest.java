@@ -1,5 +1,6 @@
 package user;
 
+import data.Data;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,12 +13,14 @@ class AdministratorTest {
 
     @BeforeEach
     void setUp() {
+        Data.setData(new Data());
         instance = new Administrator("name", "address");
     }
 
     @AfterEach
     void tearDown() {
         instance = null;
+        Data.setData(null);
     }
 
     @Test
@@ -31,7 +34,7 @@ class AdministratorTest {
     @Test
     void getId() {
         System.out.println("getId");
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.getId();
         assertEquals(expResult, result);
     }

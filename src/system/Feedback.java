@@ -10,8 +10,8 @@ import java.io.Serializable;
  */
 public class Feedback implements Serializable {
 
-    private Doctor doctor;
-    private Patient patient;
+    private final Doctor doctor;
+    private final Patient patient;
     private int rating;
     private String feedback;
     private boolean approved;
