@@ -1,100 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/view/ComboItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/view/ListItemTest.java" afterDir="false" />
+    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="Added JavaDoc.">
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/AppointmentList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Controller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/FeedbackList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/MedicineList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/PatientView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/PrescriptionList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/UserList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/AppointmentList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Controller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/FeedbackList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/MedicineList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/PatientView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/PrescriptionList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/UserList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Deserialise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Serialise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Deserialise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Serialise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Appointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Medicine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/PatientNote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Prescription.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Appointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Medicine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/PatientNote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Prescription.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/AbstractUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Administrator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Doctor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Patient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Secretary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/AbstractUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Administrator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Doctor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Patient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Secretary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/ComboItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/GUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/ListItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/ComboItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/GUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/ListItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/module-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/AppointmentList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/AppointmentList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/FeedbackList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/FeedbackList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/MedicineList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/MedicineList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/PatientView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/PatientView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/PrescriptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/PrescriptionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/controller/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/controller/UserList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/Deserialise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/Deserialise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/Serialise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/Serialise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/data/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Feedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Feedback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Medicine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Medicine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/system/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/system/Prescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Administrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/user/Secretary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/user/Secretary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/ComboItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/ComboItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOFT252/view/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOFT252/view/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/AppointmentListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/FeedbackListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/MedicineListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/PatientListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/PatientViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/PrescriptionListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/RegisterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/controller/UserListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/data/DataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/DeserialiseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/data/DeserialiseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/SerialiseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/data/SerialiseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/data/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/data/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/AppointmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/AppointmentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/FeedbackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/FeedbackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/MedicineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/MedicineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/system/PrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/system/PrescriptionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/AdministratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/AdministratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/DoctorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/DoctorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/PatientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/PatientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SOFT252/user/SecretaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SOFT252/user/SecretaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serial.ser" beforeDir="false" afterPath="$PROJECT_DIR$/serial.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AppointmentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AppointmentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/FeedbackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FeedbackList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MedicineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MedicineList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/PatientView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PatientView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/PrescriptionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PrescriptionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Deserialise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Deserialise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Serialise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Serialise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Feedback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Medicine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/PatientNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/PatientNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Secretary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ComboItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ComboItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/AppointmentListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/FeedbackListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/MedicineListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/PatientListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/PatientViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/PrescriptionListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/RegisterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controller/UserListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/DataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/DeserialiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/DeserialiseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/SerialiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/SerialiseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/AppointmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/AppointmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/FeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/FeedbackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/MedicineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/MedicineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/PrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/PrescriptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/user/AdministratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/AdministratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/user/DoctorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/DoctorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/user/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/PatientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/user/SecretaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/user/SecretaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +204,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javadoc" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in SOFT252">
@@ -316,7 +369,7 @@
       <workItem from="1577807012253" duration="6228000" />
       <workItem from="1578222203467" duration="1799000" />
       <workItem from="1578238173860" duration="7374000" />
-      <workItem from="1578333083763" duration="9777000" />
+      <workItem from="1578333083763" duration="10777000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fixed GUI controller.">
       <created>1578335681063</created>
@@ -325,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578335681063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wrote unit tests for data handling methods.">
+      <created>1578410921225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578410921225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +395,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Bug fixed GUI controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed GUI controller." />
+    <MESSAGE value="Wrote unit tests for data handling methods." />
+    <MESSAGE value="Added JavaDoc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JavaDoc." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -381,53 +443,53 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="421" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1577629632394" />
-    <state x="446" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578410592013">
+    <state x="446" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578411324404">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="446" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.678@0.23.1366.678" timestamp="1577039521608" />
-    <state x="446" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.745@0.23.1366.745" timestamp="1578410592013" />
+    <state x="446" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.745@0.23.1366.745" timestamp="1578411324404" />
     <state x="481" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1314.745@52.23.1314.745" timestamp="1577200440868" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578335678330">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578411933459">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578335678330" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578411933459" />
     <state x="445" y="85" key="DetectedRootsChooserDialog" timestamp="1575644008989">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state x="445" y="85" key="DetectedRootsChooserDialog/0.23.1366.678@0.23.1366.678" timestamp="1575644008989" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578410876452">
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578411933594">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.bottom/0.23.1366.678@0.23.1366.678" timestamp="1577097959725" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1578410876452" />
+    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1578411933594" />
     <state width="1272" height="212" key="GridCell.Tab.0.bottom/50.23.1316.745@50.23.1316.745" timestamp="1577621723336" />
     <state width="1272" height="211" key="GridCell.Tab.0.bottom/52.23.1314.745@52.23.1314.745" timestamp="1577731521689" />
     <state width="1272" height="211" key="GridCell.Tab.0.bottom/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1578410876451">
+    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1578411933593">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577639673524" />
     <state width="1324" height="188" key="GridCell.Tab.0.center/0.23.1366.678@0.23.1366.678" timestamp="1577097959723" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1578410876451" />
+    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1578411933593" />
     <state width="1272" height="212" key="GridCell.Tab.0.center/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
     <state width="1272" height="211" key="GridCell.Tab.0.center/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
     <state width="1272" height="211" key="GridCell.Tab.0.center/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1578410876450">
+    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1578411933591">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577639673523" />
     <state width="1324" height="188" key="GridCell.Tab.0.left/0.23.1366.678@0.23.1366.678" timestamp="1577097959722" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1578410876450" />
+    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1578411933591" />
     <state width="1272" height="212" key="GridCell.Tab.0.left/50.23.1316.745@50.23.1316.745" timestamp="1577621723334" />
     <state width="1272" height="211" key="GridCell.Tab.0.left/52.23.1314.745@52.23.1314.745" timestamp="1577731521687" />
     <state width="1272" height="211" key="GridCell.Tab.0.left/54.23.1312.745@54.23.1312.745" timestamp="1577741174664" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1578410876451">
+    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1578411933593">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577639673525" />
     <state width="1324" height="188" key="GridCell.Tab.0.right/0.23.1366.678@0.23.1366.678" timestamp="1577097959724" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1578410876451" />
+    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1578411933593" />
     <state width="1272" height="212" key="GridCell.Tab.0.right/50.23.1316.745@50.23.1316.745" timestamp="1577621723335" />
     <state width="1272" height="211" key="GridCell.Tab.0.right/52.23.1314.745@52.23.1314.745" timestamp="1577731521688" />
     <state width="1272" height="211" key="GridCell.Tab.0.right/54.23.1312.745@54.23.1312.745" timestamp="1577741174665" />
