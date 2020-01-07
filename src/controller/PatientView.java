@@ -18,6 +18,7 @@ public class PatientView {
 
         switch (authority) {
             case 'D':
+                GUI.getPatientNoteTextArea().setEnabled(true);
                 GUI.getNewNoteButton().setVisible(true);
                 GUI.getPatientViewSelectPanel().setVisible(true);
                 GUI.getPatientViewNewEditLabel().setVisible(true);
@@ -27,6 +28,7 @@ public class PatientView {
                 populatePatientSelectCombo(GUI.getPatientViewSelectCombo());
                 break;
             case 'P':
+                GUI.getPatientNoteTextArea().setEnabled(false);
                 GUI.getNewNoteButton().setVisible(false);
                 GUI.getPatientViewNewEditLabel().setVisible(false);
                 GUI.getSaveEditedNoteButton().setVisible(false);
@@ -36,6 +38,8 @@ public class PatientView {
                 Patient patient = Data.getData().findPatient(User.getUser().getId());
                 populatePatientHistory(GUI, patient);
             case 'S':
+                GUI.getPatientNoteTextArea().setEnabled(false);
+                GUI.getNewNoteButton().setVisible(false);
                 GUI.getPatientViewNewEditLabel().setVisible(false);
                 GUI.getSaveEditedNoteButton().setVisible(false);
                 GUI.getAddPatientNoteButton().setVisible(false);
