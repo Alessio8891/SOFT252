@@ -4,146 +4,11 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="Added JavaDoc.">
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/AppointmentList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Controller.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/FeedbackList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/MedicineList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/PatientView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/PrescriptionList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/Settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/UserList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/AppointmentList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Controller.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/FeedbackList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/MedicineList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/PatientView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/PrescriptionList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/Settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/class-use/UserList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/controller/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Deserialise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/Serialise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/User.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Deserialise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/Serialise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/class-use/User.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/data/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/module-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Appointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Medicine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/PatientNote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/Prescription.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Appointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Medicine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/PatientNote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/class-use/Prescription.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/system/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/AbstractUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Administrator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Doctor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Patient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/Secretary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/AbstractUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Administrator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Doctor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Patient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/class-use/Secretary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/user/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/ComboItem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/GUI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/ListItem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/ComboItem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/GUI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/class-use/ListItem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/SOFT252/view/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/module-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4868e7e7-8c65-4975-bda7-04135a8698e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_soft252.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft252.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft252.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagram.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +44,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="soft252" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
@@ -189,10 +58,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -209,7 +79,7 @@
       <recent name="$PROJECT_DIR$/javadoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in SOFT252">
+  <component name="RunManager" selected="Application.GUI">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.Example" />
       <module name="SOFT252" />
@@ -369,7 +239,9 @@
       <workItem from="1577807012253" duration="6228000" />
       <workItem from="1578222203467" duration="1799000" />
       <workItem from="1578238173860" duration="7374000" />
-      <workItem from="1578333083763" duration="10777000" />
+      <workItem from="1578333083763" duration="11109000" />
+      <workItem from="1578412350851" duration="150000" />
+      <workItem from="1578412526080" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fixed GUI controller.">
       <created>1578335681063</created>
@@ -385,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578410921225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added JavaDoc.">
+      <created>1578412120072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578412120072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,10 +305,11 @@
     <state x="489" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1577794731270" />
     <state x="489" y="86" key="#com.intellij.ide.util.MemberChooser/0.23.1366.745@0.23.1366.745" timestamp="1578334579712" />
     <state x="522" y="86" key="#com.intellij.ide.util.MemberChooser/52.23.1314.745@52.23.1314.745" timestamp="1577792737130" />
-    <state x="456" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577479273162">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state x="420" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578414009610">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="420" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1366.678@0.23.1366.678" timestamp="1577039486158" />
+    <state x="420" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1366.745@0.23.1366.745" timestamp="1578414009610" />
     <state x="456" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog/52.23.1314.745@52.23.1314.745" timestamp="1577479273162" />
     <state x="497" y="262" width="423" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577366825650">
       <screen x="52" y="23" width="1314" height="745" />
@@ -449,14 +329,18 @@
     <state x="446" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.678@0.23.1366.678" timestamp="1577039521608" />
     <state x="446" y="229" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.745@0.23.1366.745" timestamp="1578411324404" />
     <state x="481" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1314.745@52.23.1314.745" timestamp="1577200440868" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578411933459">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1578414161589">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578411933459" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1578414161589" />
     <state x="445" y="85" key="DetectedRootsChooserDialog" timestamp="1575644008989">
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state x="445" y="85" key="DetectedRootsChooserDialog/0.23.1366.678@0.23.1366.678" timestamp="1575644008989" />
+    <state x="429" y="23" key="Diagram.Print.Preview.Dialog" timestamp="1578413389288">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="429" y="23" key="Diagram.Print.Preview.Dialog/0.23.1366.745@0.23.1366.745" timestamp="1578413389288" />
     <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1578411933594">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
@@ -509,21 +393,22 @@
       <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state width="1324" height="206" key="GridCell.Tab.1.right/0.23.1366.678@0.23.1366.678" timestamp="1577034609754" />
-    <state x="216" y="23" key="SettingsEditor" timestamp="1577704502582">
-      <screen x="52" y="23" width="1314" height="745" />
+    <state x="170" y="23" key="SettingsEditor" timestamp="1578414036424">
+      <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="171" y="23" key="SettingsEditor/0.23.1366.678@0.23.1366.678" timestamp="1575645859127" />
+    <state x="170" y="23" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1578414036424" />
     <state x="216" y="23" key="SettingsEditor/52.23.1314.745@52.23.1314.745" timestamp="1577704502582" />
     <state x="594" y="202" key="UIDesigner.ListEditorDialog" timestamp="1577792981071">
       <screen x="52" y="23" width="1314" height="745" />
     </state>
     <state x="563" y="185" key="UIDesigner.ListEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1577640046768" />
     <state x="594" y="202" key="UIDesigner.ListEditorDialog/52.23.1314.745@52.23.1314.745" timestamp="1577792981071" />
-    <state x="377" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1578333083953">
+    <state x="377" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1578412526794">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="376" y="194" key="com.intellij.ide.util.TipDialog/0.23.1366.678@0.23.1366.678" timestamp="1577034647995" />
-    <state x="377" y="211" key="com.intellij.ide.util.TipDialog/0.23.1366.745@0.23.1366.745" timestamp="1578333083953" />
+    <state x="377" y="211" key="com.intellij.ide.util.TipDialog/0.23.1366.745@0.23.1366.745" timestamp="1578412526794" />
     <state x="412" y="211" key="com.intellij.ide.util.TipDialog/49.23.1317.745@49.23.1317.745" timestamp="1577784693467" />
     <state x="414" y="211" key="com.intellij.ide.util.TipDialog/52.23.1314.745@52.23.1314.745" timestamp="1577700449102" />
     <state x="410" y="263" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575635748941">
@@ -552,5 +437,55 @@
     <state x="348" y="25" width="697" height="676" key="search.everywhere.popup/0.23.1366.745@0.23.1366.745" timestamp="1577810226740" />
     <state x="386" y="25" width="672" height="676" key="search.everywhere.popup/50.23.1316.745@50.23.1316.745" timestamp="1577701364163" />
     <state x="387" y="25" width="670" height="676" key="search.everywhere.popup/52.23.1314.745@52.23.1314.745" timestamp="1577731845311" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

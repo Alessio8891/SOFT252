@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SOFT252:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOFT252_jar</output-path>
+    <root id="archive" name="SOFT252.jar">
+      <element id="module-output" name="SOFT252" />
+    </root>
+  </artifact>
+</component>
