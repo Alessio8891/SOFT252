@@ -3,8 +3,10 @@ package controller;
 import data.Data;
 import data.Serialise;
 import data.User;
+import system.Feedback;
 import system.Medicine;
 import system.Prescription;
+import user.AbstractUser;
 import user.Doctor;
 import user.Patient;
 import view.ComboItem;
@@ -234,5 +236,30 @@ public class PrescriptionList {
 
         clearPrescription(GUI);
         populate(GUI.getPrescriptionList());
+    }
+
+    public static void deleteUser(AbstractUser user) {
+        for (int i = 0; i < Data.getData().getPrescription().size(); i++) {
+            Prescription prescription = Data.getData().getPrescription().get(i);
+
+            if ((user.getAuthority() == 'D' && user.getId() == prescription.getDoctor().getId())
+                    || (user.getAuthority() == 'P' && user.getId() == prescription.getPatient().getId())) {
+                Data.getData().getPrescription().remove(i);
+            }
+        }
+
+        Serialise.serialise();
+    }
+
+    public static void deleteMedicine(Medicine medicine) {
+        for (int i = 0; i < Data.getData().getPrescription().size(); i++) {
+            Prescription prescription = Data.getData().getPrescription().get(i);
+
+            if (medicine == prescription.getMedicine()) {
+                Data.getData().getPrescription().remove(i);
+            }
+        }
+
+        Serialise.serialise();
     }
 }

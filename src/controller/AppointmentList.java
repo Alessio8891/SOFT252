@@ -201,4 +201,17 @@ public class AppointmentList {
         clearAppointment(GUI);
         populate(GUI.getAppointmentList());
     }
+
+    public static void deleteUser(AbstractUser user) {
+        for (int i = 0; i < Data.getData().getAppointment().size(); i++) {
+            Appointment appointment = Data.getData().getAppointment().get(i);
+
+            if ((user.getAuthority() == 'D' && user.getId() == appointment.getDoctor().getId())
+                    || (user.getAuthority() == 'P' && user.getId() == appointment.getPatient().getId())) {
+                Data.getData().getAppointment().remove(i);
+            }
+        }
+
+        Serialise.serialise();
+    }
 }

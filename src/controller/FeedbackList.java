@@ -3,6 +3,7 @@ package controller;
 import data.Data;
 import data.Serialise;
 import data.User;
+import system.Appointment;
 import system.Feedback;
 import user.AbstractUser;
 import user.Doctor;
@@ -176,5 +177,18 @@ public class FeedbackList {
 
         clearFeedback(GUI);
         populate(GUI.getFeedbackList());
+    }
+
+    public static void deleteUser(AbstractUser user) {
+        for (int i = 0; i < Data.getData().getFeedback().size(); i++) {
+            Feedback feedback = Data.getData().getFeedback().get(i);
+
+            if ((user.getAuthority() == 'D' && user.getId() == feedback.getDoctor().getId())
+                    || (user.getAuthority() == 'P' && user.getId() == feedback.getPatient().getId())) {
+                Data.getData().getFeedback().remove(i);
+            }
+        }
+
+        Serialise.serialise();
     }
 }

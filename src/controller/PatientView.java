@@ -44,6 +44,7 @@ public class PatientView {
                 GUI.getSaveEditedNoteButton().setVisible(false);
                 GUI.getAddPatientNoteButton().setVisible(false);
                 GUI.getDeleteSelectedNoteButton().setVisible(false);
+                GUI.getPatientViewSelectPanel().setVisible(true);
                 populatePatientSelectCombo(GUI.getPatientViewSelectCombo());
         }
         clearPatientNote(GUI);

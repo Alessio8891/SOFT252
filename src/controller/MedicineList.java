@@ -113,6 +113,8 @@ public class MedicineList {
         ListItem selectedMedicine = (ListItem) GUI.getMedicineList().getSelectedValue();
         Medicine medicine = (Medicine) selectedMedicine.getValue();
 
+        PrescriptionList.deleteMedicine(medicine);
+
         Data.getData().getMedicine().remove(medicine);
         Serialise.serialise();
 

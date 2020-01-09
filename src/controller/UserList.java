@@ -3,6 +3,8 @@ package controller;
 import data.Data;
 import data.Serialise;
 import data.User;
+import system.Appointment;
+import system.Medicine;
 import user.AbstractUser;
 import user.Patient;
 import view.GUI;
@@ -141,6 +143,10 @@ public class UserList {
             userIndex = Data.getData().getPatient().indexOf(patient);
 
             Data.getData().getPatient().remove(userIndex);
+
+            AppointmentList.deleteUser(user);
+            FeedbackList.deleteUser(user);
+            PrescriptionList.deleteUser(user);
         } else {
             userIndex = Data.getData().getUser().indexOf(user);
 

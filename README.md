@@ -1,5 +1,18 @@
 # SOFT252
-Zachary Smith   | <student ID>
+Zachary Smith   |   10605945
+
+### Using the program
+The executable for this coursework has been bundled with a small amount of example data, in order to demonstrate the programs functionality.
+Below is a short table with login information for 1 admin user, 3 doctors, 3 patients and 1 secretary.
+
+| User (Authority): | ID(s): | Password: |
+| :---: | :---: | :---: |
+| Admin| 0001 | password |
+| Doctor| 0001, 0002, 0003 | password |
+| Patient| 0001, 0002, 0003 | password |
+| Secretary| 0001 | password |
+
+Each user has a different set of actions available to them depending on their user stories. All users have been authorised for purposes of testing, however only users with ID 0001 have example data populating them.
 
 ### 3rd Party Crediting
 No third party assets where used in the creation of this coursework.
