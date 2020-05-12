@@ -1,7 +1,7 @@
 #Introduzione
 
 Progetto di prova, per capire l'uso di git.
-Allora
+Serve solo per...
 #First Capitol
 
 #Second Capitol
